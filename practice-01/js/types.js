@@ -1,0 +1,33 @@
+"use strict";
+
+const result1 = "8" + 2;
+const result2 = "8" - 2;
+const result3 = Number("8") + 2;
+const result4 = "12" > "3";
+const result5 = 12 === "12";
+const result6 = Number("");
+const result7 = Number("text");
+const result8 = Boolean("false");
+const result9 = typeof null;
+const result10 = typeof NaN;
+
+console.log("Результат1:", result1);
+console.log("Тип результата1:", typeof result1);
+console.log("Результат2:", result2);
+console.log("Тип результата2:", typeof result2);
+console.log("Результат3:", result3);
+console.log("Тип результата3:", typeof result3);
+console.log("Результат4:", result4);
+console.log("Тип результата4:", typeof result4);
+console.log("Результат5:", result5);
+console.log("Тип результата5:", typeof result5);
+console.log("Результат6:", result6);
+console.log("Тип результата6:", typeof result6);
+console.log("Результат7:", result7);
+console.log("Тип результата7:", typeof result7);
+console.log("Результат8:", result8);
+console.log("Тип результата8:", typeof result8);
+console.log("Результат9:", result9);
+console.log("Тип результата9:", typeof result9);
+console.log("Результат10:", result10);
+console.log("Тип результата10:", typeof result10);
